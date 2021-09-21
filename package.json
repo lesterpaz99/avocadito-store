@@ -1,17 +1,33 @@
 {
-  "scripts": {
-    "start": "snowpack dev",
-    "build": "snowpack build",
-    "format": "prettier --write \"src/**/*.js\"",
-    "install:husky": "husky install",
-    "lint": "prettier --check \"src/**/*.js\"",
-    "pre-commit": "pretty-quick --staged"
-  },
-  "devDependencies": {
-    "husky": "7",
-    "prettier": "^2.0.5",
-    "pretty-quick": "^3.1.0",
-    "snowpack": "^3.0.11",
-    "tailwindcss": "^2.0.2"
-  }
+	"name": "avocadito_store",
+	"description": "This app is a fake store so that I practice DOM Manipulation and consume an API > ✨ Bootstrapped with Create Snowpack App (CSA).",
+	"version": "1.0.0",
+	"main": "snowpack.config.js",
+	"dependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/lesterpaz99/avocadito-store.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/lesterpaz99/avocadito-store/issues"
+	},
+	"homepage": "https://github.com/lesterpaz99.github.io/avocadito-store",
+	"scripts": {
+		"start": "snowpack dev",
+		"build": "snowpack build",
+		"format": "prettier --write \"src/**/*.js\"",
+		"install:husky": "husky install",
+		"lint": "prettier --check \"src/**/*.js\"",
+		"pre-commit": "pretty-quick --staged"
+	},
+	"devDependencies": {
+		"husky": "7",
+		"prettier": "^2.0.5",
+		"pretty-quick": "^3.1.0",
+		"snowpack": "^3.0.11",
+		"tailwindcss": "^2.0.2"
+	}
 }
